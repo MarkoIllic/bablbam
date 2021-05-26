@@ -1,0 +1,22 @@
+import random
+
+
+def cesta1():
+    print("cesta1jetu")
+def cesta2():
+    print("cesta2jetu")
+def cesta3():
+    print("cesta3jetu")
+def cesta4():
+    print("cesta3jetu")
+    
+u = random.randint(1,4)
+
+if u == 1:
+    cesta1()
+if u == 2:
+    cesta2()
+if u == 3:
+    cesta3()
+if u == 4:
+    cesta4()
